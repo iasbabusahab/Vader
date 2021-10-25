@@ -33,7 +33,7 @@ KRAKEN = (
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hêll Usêr"
 USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Hêllẞø†.**\n__Now GTFO, i'm busy__"
 USER_BOT_NO_WARN = (
-    "Hello, This is **Hêllẞø† Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
+    "Hello, This is **IASBABUẞø† Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
     f"This is my master {DEFAULTUSER}'s Inbox\n"
     f"\n**{KRAKEN}**\n\n"
     "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥"
@@ -205,7 +205,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     out_file,
                     force_document=True,
                     allow_cache=False,
-                    caption="[HellBot]Current Approved PMs",
+                    caption="[IASBABU]Current Approved PMs",
                     reply_to=event,
                 )
                 await event.delete()
@@ -304,7 +304,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(
-                chat.id, "**My Boss iz here.... It's your lucky day nibba😏**"
+                chat.id, "**My Owner iz here.... It's your lucky day MR./MRS.😏**"
             )
             await borg.send_message(chat, "**Here comes my Master! Lucky you!!😏**")
 
