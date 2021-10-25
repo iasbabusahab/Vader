@@ -66,7 +66,7 @@ def button(page, modules):
         ]
     )
     return [max_pages, buttons]
-    # Changing this line may give error in bot as i added some special cmds in hellbot channel to get this module work...
+    # Changing this line may give error in bot as i added some special cmds in IASBABU channel to get this module work...
 
     modules = CMD_HELP
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
@@ -75,12 +75,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@HellBot_Official":
+        if event.query.user_id == bot.uid and query == "@ias_factory":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running HellBot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running IASBABUBOT**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -94,21 +94,21 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         else:
             result = builder.article(
-                "@HellBot_Official",
-                text="""**Hey! This is [Hêllẞø†.](https://t.me/HellBot_Official) \nYou can know more about me from the links given below 👇**""",
+                "@ias_factory",
+                text="""**Hey! This is [IASBABUẞø†.](https://t.me/ias_factory) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/HellBot_Official"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/ias_factory"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/HellBot_Official_Chat"
+                            "⚡ GROUP ⚡", "https://t.me/ias_ips_group"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/HellBoy-OP/HellBot"),
+                            "✨ Owner ✨", "https://t.me/iam_aspirant"),
                         custom.Button.url
                     (
-                            "🔰 TUTORIAL 🔰", "https://youtu.be/M2FQJq_sHp4"
+                            "🔰 Manged by 🔰", "https://t.me/mrstrange_genuine"
                     )
                     ],
                 ],
@@ -120,14 +120,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def page(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © IasBaBu ™",
                 cache_time=0,
                 alert=True,
             )
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF** [Hêllẞøt](https://t.me/HellBot_Official) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF** [IASBABUẞøt](https://t.me/ias_factory) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -136,10 +136,10 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_hell(event,
-              "⚜️Hêllẞø† Menu Provider Is now Closed⚜️\n\n         **[© Hêllẞø† ™](t.me/hellbot_official)**", 5, link_preview=False
+              "⚜️IASBABUẞø† Menu Provider Is now Closed⚜️\n\n         **[© IASBABU ™](t.me/ias_factory)**", 5, link_preview=False
             )
         else:
-            hell_alert = "Ho gya aapka? Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Héllẞø† ™"
+            hell_alert = "Ho gya aapka? Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © IASBABU ™"
             await event.answer(hell_alert, cache_time=0, alert=True)
           
     @tgbot.on(
@@ -148,7 +148,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © IASBABU ™",
                 cache_time=0,
                 alert=True,
             )
@@ -181,7 +181,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def commands(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © IASBABU ™",
                 cache_time=0,
                 alert=True,
             )
