@@ -19,8 +19,8 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/80e5200c615cf0cb57aa9.mp4"
-pm_caption = "__**🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
+PM_IMG = "https://telegra.ph/file/7dd97049d9b79b4ea6efb.jpg"
+pm_caption = "__**🔥🔥IASBABU ɨs օռʟɨռɛ🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
@@ -28,15 +28,15 @@ pm_caption += (
 
 pm_caption += f"🛡️TELETHON🛡️ : `{version.__version__}` \n"
 
-pm_caption += f"😈Hêllẞø†😈       : __**{hellversion}**__\n"
+pm_caption += f"😈IASBABUẞø†😈       : __**{hellversion}**__\n"
 
 pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/ias_factory)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/SupRemE_AnanD)\n\n"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/IASBABU_OFFICIAL\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"
+pm_caption += "    [✨Group✨](https://t.me/ias_ips_group) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
