@@ -19,7 +19,7 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/7dd97049d9b79b4ea6efb.jpg"
+PM_IMG = "https://telegra.ph/file/75624426975b1372b0c69.mp4"
 pm_caption = "__**🔥🔥IASBABU ɨs օռʟɨռɛ🔥🔥**__\n\n"
 
 pm_caption += (
