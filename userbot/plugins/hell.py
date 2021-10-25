@@ -16,7 +16,7 @@ async def reply_id(event):
 
 DEFAULTUSER = ALIVE_NAME or "Hell User"
 HELL_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ʟɛɢɛռɖaʀʏ_ᴀғ_ɦɛʟʟɮօt"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ʟɛɢɛռɖaʀʏ_ᴀғ_IasBaBuɮօt"
 
 USERID = bot.uid
 
