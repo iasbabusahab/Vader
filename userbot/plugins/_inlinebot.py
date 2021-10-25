@@ -105,7 +105,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     ],
                     [
                         custom.Button.url(
-                            "✨ Owner ✨", "https://t.me/iam_aspirant"),
+                            "✨ Owner ✨", "https://t.me/IASBABU_OFFICIAL"),
                         custom.Button.url
                     (
                             "🔰 Manged by 🔰", "https://t.me/mrstrange_genuine"
